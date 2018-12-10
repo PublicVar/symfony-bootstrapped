@@ -56,4 +56,4 @@ will be the same as :
 
 Add composer package : 
 
-    docker-compose exec -T php /entrypoint require package
+    docker-compose exec -T php /entrypoint composer require package
