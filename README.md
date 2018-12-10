@@ -10,7 +10,6 @@
 
 ## Install
 
-    make          # self documented makefile
     make install  # install and start the project
 
 Test the project : [http://localhost:8080](http://localhost:8080)
@@ -55,3 +54,6 @@ will be the same as :
     
     bin/console cache:clear
 
+Add composer package : 
+
+    docker-compose exec -T php /entrypoint require package
